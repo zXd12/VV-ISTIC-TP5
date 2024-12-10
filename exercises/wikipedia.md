@@ -25,3 +25,6 @@ driver.get("http://www.wikipedia.com")
 for i in range(10):
     driver.get(random.choice(driver.find_elements(By.XPATH, "//a[@href]")).get_attribute("href"))
 ```
+
+Page finale après l'execution:
+![https://iranicaonline.org/articles/babol-02](Screenshot_20241210_135312.png)
